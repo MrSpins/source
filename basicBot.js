@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.8.17",
+        version: "",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -309,9 +309,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/MrSpins/custom/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/MrSpins/custom/master/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/MrSpins/custom/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
